@@ -14,6 +14,8 @@ import {
   TouchableOpacity,
 } from 'react-native-gesture-handler';
 import SignIn from './SignIn'
+import wishlist from '../components/Wishlist'
+import wish from '../components/Wishlist';
 
 class Account extends React.Component {
   constructor(props) {
@@ -71,6 +73,7 @@ class Account extends React.Component {
       ],
       modalVisible: false,
       display_picture: require('../assets/about.png'),
+      
     };
   }
 
@@ -100,7 +103,7 @@ class Account extends React.Component {
                     backgroundColor: '#FEFCEE',
                     flex: 7.5,
                   }}>
-                      <TouchableOpacity onPress={()=><SignIn/>}>
+                      <TouchableOpacity onPress={wish.render}>
                   <Text style={{margin: 10, fontSize: 15}}> SIGN IN</Text>
                   </TouchableOpacity>
                   <TextInput

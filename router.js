@@ -8,6 +8,7 @@ import Wishlist from './src/components/Wishlist'
 import Categories from './src/components/Categories'
 import { createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 
+
 const Tab=createBottomTabNavigator();
 function IconWithBadge({name, badgeCount, color, size}) {
     return (
@@ -110,3 +111,6 @@ export default function Tabs()
         <MyTabs />
     </NavigationContainer>);
 }
+
+
+

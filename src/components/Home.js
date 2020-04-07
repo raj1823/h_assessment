@@ -1,7 +1,11 @@
 'use strict';
 import React, { PureComponent } from 'react';
-import { AppRegistry, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { AppRegistry, Image,StyleSheet, Text, TouchableOpacity, TextInput,View } from 'react-native';
 import { RNCamera } from 'react-native-camera';
+import { SafeAreaView } from 'react-native-safe-area-context';
+
+
+
 
 
 
